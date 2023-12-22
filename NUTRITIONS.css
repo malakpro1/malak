@@ -1,0 +1,9 @@
+body {
+    background-image: url("000.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+}

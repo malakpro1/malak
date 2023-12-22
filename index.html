@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEALTH</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  
+    <div class="box">
+        <h1>Health</h1>
+        <h1>BODY</h1>
+    </div>
+    
+    <div id="home">
+        <ul>
+                <li><a href="TOP.html">TOP</a></li>
+                <li><a href="NUTRITIONS.html">NUTRITIONS</a></li>
+                <li><a href="POXING.html">POXING</a></li>
+                <li><a href="WHATER.html">WHATER</a></li>
+                <li><a href="HEALTHY SLEEP.html">HEALTHY SLEEP</a></li>
+                <li><a href="MENTAL HEALTH.html">MENTAL HEALTH</a></li>
+                <li><a href="end.html">END</a></li>
+
+        </ul>
+        <img src="https://i.pinimg.com/474x/56/84/9c/56849ccf20cd286d62a7d9566ae8f0fa.jpg" alt="" id="menubtn">
+
+    </div>
+
+                      
+    <script>
+
+
+        var menubtn = document.getElementById("menubtn")
+        var home = document.getElementById("home")
+
+        home.style.left = "0"
+        menubtn.onclick = function(){ 
+            if(home.style.left == "-250px"){
+                home.style.left = "0";
+            }
+            else{
+                home.style.left = "-250px"
+            }
+
+        }
+    </script>
+    
+</body>
+
+</html>

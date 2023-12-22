@@ -1,0 +1,23 @@
+body{
+    background-image: url("ZZ.jpg");
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+   }
+   
+   h1{
+     text-align: center;
+   }
+   
+   .ha{
+     padding-left: 999px;
+     margin-top: -200px; 
+   }
+   
+   .box{
+     filter: drop-shadow(10px 8px 6px #990101);
+   }
+
+   #mag{
+    padding-left: 999px;
+   }

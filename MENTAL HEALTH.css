@@ -1,0 +1,19 @@
+
+body {
+ background-color: rgb(245, 240, 240);
+
+}
+h1{
+  text-align: center;
+}
+img
+{
+  height: 100px;
+  width: 100px;
+
+}
+
+#goody{
+  display: none;
+  text-align: center;
+}

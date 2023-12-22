@@ -1,0 +1,13 @@
+body{
+background-image: url("sl.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+h1{
+    text-align: center;
+}
+.sl{
+    color: rgb(139, 218, 255);
+}
